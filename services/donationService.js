@@ -1,11 +1,5 @@
 const { Donation, Category } = require('../models/Donation');
 
-/**
- * Donation Service with mock data for chart analytics
- * This service provides data specifically formatted for React Chart.js
- */
-
-// Mock categories data
 const categories = [
   new Category({
     id: 'cat-1',
